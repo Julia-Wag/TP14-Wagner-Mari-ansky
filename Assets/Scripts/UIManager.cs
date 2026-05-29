@@ -8,6 +8,9 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI timerText;
 
+    public GameObject winPanel;
+    public GameObject gameOverPanel;
+
     public void UpdateScore(int score)
     {
         scoreText.text = "Score: " + score;
@@ -16,5 +19,15 @@ public class UIManager : MonoBehaviour
     public void UpdateTimer(float time)
     {
         timerText.text = "Time: " + time.ToString("F1");
+    }
+
+    public void MostrarPantallaWin()
+    {
+        winPanel.SetActive(true);
+    }
+
+    public void MostrarPantallaGameOver()
+    {
+        gameOverPanel.SetActive(true);
     }
 }
