@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class InteractibleArea : MonoBehaviour
 {
+   private TimerScript timerScript;
+
    public int score = 0;
 
     public int maxScore = 5;
@@ -15,6 +17,7 @@ public class InteractibleArea : MonoBehaviour
     private void Awake()
     {
         uiManager = FindObjectOfType<UIManager>();
+        timerScript = FindObjectOfType<TimerScript>();
     }
 
     private void OnTriggerEnter(Collider col)
@@ -31,9 +34,12 @@ public class InteractibleArea : MonoBehaviour
             {
                 juegoTerminado = true;
 
+                timerScript.juegoTerminado = true;
+
                 uiManager.MostrarPantallaWin();
 
                 Time.timeScale = 0;
+
             }
         }
     }

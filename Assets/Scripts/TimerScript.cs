@@ -9,7 +9,7 @@ public class TimerScript : MonoBehaviour
 
     private UIManager uiManager;
 
-    private bool juegoTerminado = false;
+    public bool juegoTerminado = false;
 
     private void Start()
     {
