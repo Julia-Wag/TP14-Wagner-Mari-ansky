@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class InteractibleArea : MonoBehaviour
 {
-   private TimerScript timerScript;
+    private TimerScript timerScript;
 
-   public int score = 0;
+    public int score = 0;
 
     public int maxScore = 5;
 
@@ -22,9 +22,13 @@ public class InteractibleArea : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
+        Debug.Log("InteractibleArea detectó: " + col.name);
+
         if (col.CompareTag("Lapicera"))
         {
             score++;
+
+            Debug.Log("Score: " + score);
 
             uiManager.UpdateScore(score);
 
@@ -39,7 +43,6 @@ public class InteractibleArea : MonoBehaviour
                 uiManager.MostrarPantallaWin();
 
                 Time.timeScale = 0;
-
             }
         }
     }
