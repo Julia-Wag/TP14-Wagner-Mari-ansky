@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 4ed43df93262de94098de10f309105ca
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Lapicera
+    100002: Paredes
+    100004: ParteDeArribaMesa
+    100006: PatasMesa
+    100008: Piso
+    100010: Pizarron
+    100012: Techo
+    100014: //RootNode
+    400000: Lapicera
+    400002: Paredes
+    400004: ParteDeArribaMesa
+    400006: PatasMesa
+    400008: Piso
+    400010: Pizarron
+    400012: Techo
+    400014: //RootNode
+    2100000: Material.001
+    2100002: No Name
+    2100004: ParedTextura
+    2100006: Material_piso
+    2100008: Material.002
+    2100010: MesaMetal
+    2100012: MesaBorde
+    2100014: MesaTapa
+    2300000: Lapicera
+    2300002: Paredes
+    2300004: ParteDeArribaMesa
+    2300006: PatasMesa
+    2300008: Piso
+    2300010: Pizarron
+    2300012: Techo
+    3300000: Lapicera
+    3300002: Paredes
+    3300004: ParteDeArribaMesa
+    3300006: PatasMesa
+    3300008: Piso
+    3300010: Pizarron
+    3300012: Techo
+    4300000: Lapicera
+    4300002: Pizarron
+    4300004: Paredes
+    4300006: Piso
+    4300008: Techo
+    4300010: PatasMesa
+    4300012: ParteDeArribaMesa
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 41011c9270f194743af08c5d5b103751, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 184d962842cb8df4e84b235639d8f8f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_piso
+    second: {fileID: 2100000, guid: c5210510e013ece46822cc808ecbe4dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesaBorde
+    second: {fileID: 2100000, guid: f0a883b53766ee3478565b2995d7d333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesaMetal
+    second: {fileID: 2100000, guid: 745990343cc098b49a863ba7112696b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MesaTapa
+    second: {fileID: 2100000, guid: 1687c940bed618b4f9b7d29b451d091d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: dabcfba4e1efceb46b3c9dccfcf97221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParedTextura
+    second: {fileID: 2100000, guid: 3b3f9f2a3623ced41b238319d2ce751e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_FloorsRegular0301_1_seamless_S
+    second: {fileID: 2800000, guid: af24f9cf43ac0874f81c2165066ffb5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beige_wall_001_diff_1k
+    second: {fileID: 2800000, guid: dabf886cf0b0b144d8271cb95f65e86f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beige_wall_001_nor_gl_1k
+    second: {fileID: 2800000, guid: 56a4932d4324b2b4ab66b92b6d5b972c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: blue_metal_plate_diff_1k
+    second: {fileID: 2800000, guid: 7701705641823a044acdc5294873aa32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tiled_floor_001_diffuse_1k
+    second: {fileID: 2800000, guid: 85d542e9681cc274086a0e076173ca37, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
